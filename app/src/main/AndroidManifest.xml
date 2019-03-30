@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.protap.travelfreak">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".login" />
+        <activity android:name=".Signup" />
+        <activity android:name=".Travel_freak" />
+        <activity android:name=".Places" />
+        <activity android:name=".Ticket" />
+        <activity android:name=".Contact" />
+        <activity android:name=".Dhaka" />
+        <activity android:name=".Raj" />
+        <activity android:name=".Ctg" />
+        <activity android:name=".Khulna" />
+        <activity android:name=".Barisal" />
+        <activity android:name=".Sylhet" />
+        <activity android:name=".Mymensingh" />
+        <activity android:name=".Rangpur" />
+        <activity android:name=".Air_ticket" />
+        <activity android:name=".Car" />
+        <activity android:name=".Submitsuccess" />
+        <activity android:name=".Ngonj" />
+        <activity android:name=".Shapla" />
+        <activity android:name=".Shohagpolli" />
+        <activity android:name=".Jindapark" />
+        <activity android:name=".Lalbag" />
+        <activity android:name=".Moinot" />
+        <activity android:name=".Padma" />
+        <activity android:name=".Sonamosjid" />
+        <activity android:name=".Rajbari" />
+        <activity android:name=".Puthia" />
+        <activity android:name=".Paharpur" />
+        <activity android:name=".Altadighi" />
+        <activity android:name=".Sundarban" />
+        <activity android:name=".Shatgombuj" />
+        <activity android:name=".Shitakundu" />
+        <activity android:name=".Bandarban" />
+        <activity android:name=".Potenga" />
+        <activity android:name=".Sajek" />
+        <activity android:name=".Nijhum" />
+        <activity android:name=".Saintmartin" />
+        <activity android:name=".Ramsagor" />
+        <activity android:name=".Vinnojogot" />
+        <activity android:name=".Dinajpur_rajbari" />
+        <activity android:name=".Sylhet_sohor" />
+        <activity android:name=".Tangua" />
+        <activity android:name=".Sada_pathor" />
+        <activity android:name=".Birishiri" />
+        <activity android:name=".Shorupkathi" />
+        <activity android:name=".Shapla_gram" />
+        <activity android:name=".Kuakata" />
+        <activity android:name=".Hotel"></activity>
+    </application>
+
+</manifest>

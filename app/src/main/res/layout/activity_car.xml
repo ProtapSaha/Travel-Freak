@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Car">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Booking Form"
+        android:textSize="25sp"
+        android:textColor="@color/colorPinkRose"
+        android:layout_marginBottom="15dp"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/person"
+            android:ems="20"
+            android:hint="আপনার পুরো নাম"
+            android:inputType="textEmailAddress"
+            android:textSize="16dp"
+            android:paddingTop="17dp"
+            android:layout_marginBottom="5dp"
+            android:layout_centerHorizontal="true" />
+        <EditText
+            android:id="@+id/phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:drawableLeft="@drawable/phone"
+            android:ems="13"
+            android:paddingTop="17dp"
+            android:hint="আপনার ফোন নম্বর"
+            android:textSize="16dp"
+            android:inputType="number" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="4">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="যাত্রার তারিখ"
+            android:textSize="18sp"
+            android:layout_weight="1"/>
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="dd/mm/yy"
+            android:id="@+id/tvDate"
+            android:layout_weight="1"
+            android:layout_centerHorizontal="true"
+            android:textSize="20sp"/>
+        <Spinner
+            android:id="@+id/time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/btn_dropdown"
+            android:spinnerMode="dropdown"
+            android:layout_weight="2"/>
+        />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:text="গাড়ি ছাড়ার ঠিকানাঃ"
+            android:textSize="18sp"
+            android:layout_weight="1"
+            />
+        <EditText
+            android:layout_marginTop="28dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Enter Your text here"
+            android:layout_weight="1"
+            android:ems="100"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+        <TextView
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:text="গন্তব্যস্থলের ঠিকানা:"
+            android:textSize="18sp"
+            android:layout_weight="1"
+            />
+        <EditText
+            android:layout_marginTop="25dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Enter Your text here"
+            android:layout_weight="1"
+            android:ems="100"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp">
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="যাত্রীর সংখ্যা:"
+            android:textSize="18sp"/>
+        <Spinner
+            android:id="@+id/passenger"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/btn_dropdown"
+            android:spinnerMode="dropdown" />
+        />
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/btnsubmit"
+        android:text="জমা দিন"
+        android:gravity="center"
+        android:layout_gravity="right"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#A8A8A8"
+        />
+
+</LinearLayout>
+
+

@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Ticket">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:background="@drawable/ticketimg"
+        android:textAlignment="center"
+        android:text="টিকেট কিনুন"
+        android:textSize="24sp"
+        android:gravity="bottom"
+        android:textColor="@color/colorAquaDark"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        >
+        <LinearLayout
+            android:id="@+id/plane"
+            android:layout_width="0dp"
+            android:layout_height="120dp"
+            android:layout_weight="1"
+            android:layout_margin="2dp"
+            android:orientation="vertical"
+            android:background="@color/colorGrapeFruit"
+            >
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ticket"
+                android:tint="@color/colorWhite"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="8dp"
+                android:layout_marginTop="20dp"
+                android:background="@color/colorGrapeFruitDark"
+                android:text="বিমানের টিকিট"
+                android:textSize="18sp"
+                android:textAlignment="center"
+                android:textColor="@color/colorWhite"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/car"
+            android:layout_width="0dp"
+            android:layout_height="120dp"
+            android:layout_weight="1"
+            android:layout_margin="2dp"
+            android:orientation="vertical"
+            android:background="@color/colorAqua"
+            >
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:src="@drawable/car"
+                android:tint="@color/colorWhite"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="8dp"
+                android:layout_marginTop="20dp"
+                android:background="@color/colorAquaDark"
+                android:text="গাড়ী ভাড়া"
+                android:textSize="18sp"
+                android:textAlignment="center"
+                android:textColor="@color/colorWhite"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/train"
+            android:layout_width="0dp"
+            android:layout_height="120dp"
+            android:layout_weight="1"
+            android:layout_margin="2dp"
+            android:orientation="vertical"
+            android:background="@color/colorPinkRose"
+            >
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:src="@drawable/train"
+                android:tint="@color/colorWhite"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="8dp"
+                android:layout_marginTop="20dp"
+                android:background="@color/colorPinkRoseDark"
+                android:text="ট্রেন টিকিট"
+                android:textSize="18sp"
+                android:textAlignment="center"
+                android:textColor="@color/colorWhite"
+                />
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="3"
+            >
+            <LinearLayout
+                android:id="@+id/bus"
+                android:layout_width="0dp"
+                android:layout_height="120dp"
+                android:layout_weight="1"
+                android:layout_margin="2dp"
+                android:orientation="vertical"
+                android:background="@color/colorGrass"
+                >
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/bus"
+                    android:tint="@color/colorWhite"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="8dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@color/colorGrassDark"
+                    android:text="বাস টিকেট"
+                    android:textSize="18sp"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorWhite"
+                    />
+
+            </LinearLayout>
+
+           <LinearLayout
+               android:id="@+id/dashboard"
+                android:layout_width="0dp"
+                android:layout_height="120dp"
+                android:layout_weight="1"
+                android:layout_margin="2dp"
+                android:orientation="vertical"
+                android:background="@color/colorBlueJeans"
+                >
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/dashboard"
+                    android:tint="@color/colorWhite"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="8dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@color/colorBlueJeansDark"
+                    android:text="ড্যাশবোর্ড"
+                    android:textSize="18sp"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorWhite"
+                    />
+
+            </LinearLayout>
+
+            <!--<LinearLayout
+                android:id="@+id/logout"
+                android:layout_width="0dp"
+                android:layout_height="120dp"
+                android:layout_weight="1"
+                android:layout_margin="2dp"
+                android:orientation="vertical"
+                android:background="@color/colorLavander"
+                >
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/division"
+                    android:tint="@color/colorWhite"
+                    />
+                <TextView
+                    android:id="@+id/tvlogout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="8dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@color/colorLavanderDark"
+                    android:text="সিলেট"
+                    android:textSize="18sp"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorWhite"
+                    />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="3"
+            >
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="120dp"
+                android:layout_weight="1"
+                android:layout_margin="2dp"
+                android:orientation="vertical"
+                android:background="@color/colorMint"
+                >
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/division"
+                    android:tint="@color/colorWhite"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="8dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@color/colorMintDark"
+                    android:text="ময়মনসিংহ"
+                    android:textSize="18sp"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorWhite"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="120dp"
+                android:layout_weight="1"
+                android:layout_margin="2dp"
+                android:orientation="vertical"
+                android:background="@color/colorAqua"
+                >
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/division"
+                    android:tint="@color/colorWhite"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="8dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@color/colorAquaDark"
+                    android:text="রংপুর"
+                    android:textSize="18sp"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorWhite"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="120dp"
+                android:layout_weight="1"
+                android:layout_margin="2dp"
+                android:orientation="vertical"
+                android:background="@color/colorPinkRose"
+                >
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/dashboard"
+                    android:tint="@color/colorWhite"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="8dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@color/colorPinkRoseDark"
+                    android:text="ড্যাশবোর্ড"
+                    android:textSize="18sp"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorWhite"
+                    />
+
+            </LinearLayout>-->
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
